@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+body::after {
+    content: "";
+    background: url(marrakech-du-rire-2022.jpeg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-size: contain;
+    background-repeat: round;
+  }
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: 'Barrio';
+    font-size: 50px;
+    margin-top: 30px ;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+}
+
+#title > span {
+    color: rgb(255, 124, 124);
+    font-size: 30px;
+}
+
+#description {
+    text-align: center;
+    color: white;
+    font-family: 'Barrio';
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+}
+
+/*/////////////////////////*/
+
+#survey-form {
+    padding: 25px;
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#inputs1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+#inputs1 > div{
+    width: 50%;
+}
+
+#inputs1 input {
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500 ;
+}
+#name-label, #name, #email-label, #email, #number-label, #number, #dropdown-label, #dropdown {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#name-label, #email-label, #number-label, #dropdown-label{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500 ;
+}
+
+#name, #email, #number {
+    height: 25px;
+    width: 190px;
+}
+#number {
+    width: 190px;
+}
+
+#dropdown {
+    width: 201px;
+    height: 32px;
+}
+
+#number-label > span {
+    font-size: 15px;
+}
+
+#fieldset1 {
+    width: 70%;
+    margin: 10px 10px 20px 0px;
+}
+
+legend {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500 ;
+}
+
+#fieldset2 {
+    width: 70%;
+}
+
+#defintely, #maybe, #not-sure, #because1, #because2, #because3, #because4 {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500 ;
+    margin-bottom: 5px;
+}   
+
+form > label {
+    display: block;
+    margin: 20px 0px 10px 0;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500 ;
+}
+
+textarea {
+    width: 60%;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}

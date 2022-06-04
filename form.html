@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">  <title>Mrrakech du rire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">MARRAKECH DU RIRE <span>(FREE TICKETS!!)</span></h1>
+  <P id="description">Please fill this form to get your free ticket</p>
+  <form id="survey-form">
+    <div id="inputs1" >
+      <div>
+        <label id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+      </div>
+      <div>
+        <label id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your Email" required>
+      </div>
+      <div>
+        <label id="number-label">Age <span>(optional)</span></label>
+        <input id="number" type="number" placeholder="Enter your Age" min="1" max="120">
+      </div>
+      <div>
+        <label id="dropdown-label">How did you heard about us?</label>
+        <select id="dropdown">
+            <option>Select how</option>
+            <option value="student">Social Media</option>
+            <option value="full-time-job">Televesion</option>
+            <option value="full-time-learner">A friend</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
+      
+    </div>
+  
+
+
+    <fieldset id="fieldset1">
+      <legend>Would you recommend Marrakech du Rire to a friend?</legend>
+        <div>
+          <input type="radio" id="defintely" name="drone" value="defintely"checked>
+          <label id="defintely" for="defintely">Defintely</label>
+        </div>
+
+        <div>
+          <input type="radio" id="maybe" name="drone" value="maybe">
+          <label id="maybe" for="maybe">Maybe</label>
+        </div>
+
+        <div>
+          <input type="radio" id="not-sure" name="drone" value="not-sure">
+          <label id="not-sure" for="not-sure">Not sure</label>
+        </div>
+    </fieldset>
+
+    <fieldset id="fieldset2">
+        <legend>Why did you decide to come to this comdey festival?</legend>
+
+        <div>
+          <input type="checkbox" id="front-end" name="front-end" value="front=end" checked>
+          <label id="because1" for="front-end">Because of a comedain I like</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="back-end" name="back-end" value="back-end">
+          <label id="because2" for="back-end">Because it's free </label>
+        </div>
+            <div>
+          <input type="checkbox" id="data" name="data" value="data">
+          <label id="because3" for="data">Because I happned to be in Marrakech</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="challenges" name="horns" value="challenges">
+          <label id="because4" for="challenges">Something elese</label>
+        </div>
+    </fieldset>
+
+    <label class="last-label" for="suggestions">Any comments or suggestions?</label>
+
+    <textarea id="suggestions" name="suggestions" rows="5" cols="33">
+    Enter your comment here...
+    </textarea>
+
+    <button class="last-label" id="submit" type="submit">submit
+    </button>
+  </form>
+</body>
+</html>
+
+
+
+
